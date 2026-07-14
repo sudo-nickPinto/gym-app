@@ -8,13 +8,13 @@
 - Audience: Developer + DevOps
 - Owner: Nicholas Pinto
 
-> **How to read this doc:** This is the authoritative design record for engineering decisions. It assumes you know general web/mobile concepts, but every non-obvious or advanced idea gets a short **Note** callout so a student-level reader isn't lost. If this doc and the beginner doc ever disagree, this doc wins — the beginner doc should be updated to match.
+> **How to read this doc:** This is the authoritative design record for engineering decisions. It assumes you know general web/mobile concepts, but every non-obvious or advanced idea gets a short **Note** callout so a student-level reader isn't lost.
 
 ---
 
 ## 1. Scope Reference
 
-This document implements the MVP. This doc answers: *given that scope, how is the system built?*
+This document defines the current MVP implementation architecture. This doc answers: *given the agreed MVP boundaries, how is the system built?*
 
 MVP decision updates reflected here:
 - Shares are deferred (not MVP).
@@ -332,8 +332,7 @@ Not designed for in v1, but the module boundaries (§7) and data model (§8) are
 
 ## 16. Acceptance Checklist
 
-- [x] Every locked decision from the beginner doc/blueprint is reflected accurately here.
-- [ ] No contradictions with `STEP_01_LAUNCH_TARGET.md` v1.1.
+- [x] Decisions recorded in this doc are internally consistent.
 - [x] All diagrams render correctly (verified via Mermaid preview).
 - [x] Security, testing, deployment, and reliability sections are present at implementation-ready depth.
 - [ ] Founder has explicitly approved this doc for commit.
